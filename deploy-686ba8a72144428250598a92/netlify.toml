@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "discord.cactushosting.co.uk/*"
+  to = "discord.com"
+  status = 200
+  force = true
