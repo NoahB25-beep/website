@@ -1,5 +1,5 @@
-[[redirects]]
-  from = "discord.cactushosting.co.uk/*"
-  to = "discord.com"
-  status = 200
-  force = true
+[[redirects]] from = "https://hosting.cactushosting.co.uk/*"
+to = "https://cactushosting.co.uk/host.html" 
+status = 200 
+force = true 
+proxy = true
