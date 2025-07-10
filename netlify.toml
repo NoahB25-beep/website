@@ -1,4 +1,5 @@
-[[redirects]] from = "https://hosting.cactushosting.co.uk/*"
+[[redirects]]
+from = "https://hosting.cactushosting.co.uk/*"
 to = "https://cactushosting.co.uk/host.html" 
 status = 200 
 force = true 
