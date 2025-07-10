@@ -1,1 +1,1495 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script defer src="https://apps.4sitestudios.com/wordle-for-good/wordle-for-good.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <meta name="description" content="Cactus Hosting is a mixture between hosting (coming soon) and... whatever this is.">
+  <title>Noah's Random Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --primary-color: #3498db;
+      --background-color: #0000;
+      --text-color: #fffff;
+      --card-background: #ffffff;
+      --shadow-color: rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-color);
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    .main-content {
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .card {
+      background-color: var(--card-background);
+      border-radius: 8px;
+      box-shadow: 0 4px 8px var(--shadow-color);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    h1, h3 {
+      text-align: center;
+    }
+
+    h1 {
+      font-weight: 700;
+    }
+
+    h3 {
+      font-weight: 400;
+      color: #555;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    label {
+      font-weight: 500;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    button[type="submit"] {
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+
+    .recipe h1 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    .recipe p {
+      margin-bottom: 1.5rem;
+    }
+
+    .recipe strong {
+      font-weight: 500;
+      color: var(--primary-color);
+    }
+
+    .video {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 9999;
+      width: 300px;
+      height: 170px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .video iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+
+<p>  Según todas las leyes conocidas de la aviación, no hay forma de que una abeja pueda volar.
+Sus alas son demasiado pequeñas para que su pequeño cuerpo gordo salga del suelo.
+La abeja, por supuesto, vuela de todos modos porque las abejas no les importa lo que los humanos piensen que es imposible.
+Amarillo, negro. Amarillo, negro. Amarillo, negro. Amarillo, negro.
+¡Ooh, negro y amarillo!
+Vamos a sacudirlo un poco.
+¡Barry! ¡El desayuno está listo!
+¡Próximo!
+Espera un segundo.
+¿Hola?
+Barry?
+¿Adán?
+¿Puedes creer que esto está sucediendo?
+No puedo.
+Te recogeré.
+Luciendo agudo.
+Usa las escaleras, tu padre pagó buen dinero por ellas.
+Lo siento. Estoy emocionado.
+Aquí está el graduado.
+Estamos muy orgullosos de ti, hijo.
+Una boleta de calificaciones perfecta, todas las B.
+Muy orgulloso.
+¡Mamá! Tengo algo que va aquí.
+Tienes pelusas en tu pelusa.
+¡Ay! ¡Ese soy yo!
+¡Salga a nosotros! Estaremos en la fila 118,000.
+¡Adiós!
+¡Barry, te lo dije, deja de volar en la casa!
+Hola, Adam.
+Oye, Barry.
+¿Ese es el gel de fuzz?
+Un poco. Día especial, graduación.
+Nunca pensé que lo lograría.
+Tres días de escuela primaria, tres días de secundaria.
+Esos fueron incómodos.
+Tres días universitario. Me alegro de haber tomado un día y enganchado por la colmena.
+Volviste diferente.
+Hola Barry. Artie, ¿crecer un bigote? Se ve bien.
+¿Escuchar sobre Frankie?
+Sí.
+¿Vas al funeral?
+No, no voy.
+Todo el mundo sabe, picar a alguien, mueres.
+No lo desperdicies en una ardilla.
+Es tan pesado.
+Supongo que podría haber salido del camino.
+Me encanta esto que incorpora un parque de diversiones en nuestro día.
+Por eso no necesitamos vacaciones.
+Chico, bastante pompa bajo las circunstancias.
+Bueno, Adam, hoy somos hombres.
+¡Somos!
+Abejas.
+¡Amén!
+¡Aleluya!
+Estudiantes, facultad, abejas distinguidas,
+Por favor dan la bienvenida a Dean Buzzwell.
+Bienvenido, New Hive City Graduating Clase de 9:15.
+¡Eso concluye nuestras ceremonias y comienza su carrera en Honex Industries!
+¿Elegiremos nuestro trabajo hoy?
+Escuché que es solo orientación.
+¡Aviso! Aquí vamos.
+Mantenga sus manos y antenas dentro del tranvía en todo momento.
+¿Me pregunto cómo será?
+Un poco de miedo.
+Bienvenido a Honex, una división de Honesco y parte del grupo Hexagon.
+¡Esto es todo!
+Guau.
+Guau.
+Sabemos que usted, como abeja, ha trabajado toda su vida para llegar al punto en que pueda trabajar durante toda su vida.
+La miel comienza cuando nuestros valientes deportistas de polen traen el néctar a la colmena.
+Nuestra fórmula de primer secreto está automáticamente corregida en color, ajustada por olor y contornea burbujas en este jarabe dulce relajante con su brillo dorado distintivo que conoces como ... ¡Cariño!
+Esa chica estaba caliente.
+¡Ella es mi prima!
+¿Ella es?
+Sí, todos somos primos.
+Bien. Tienes razón.
+En Honex, nos esforzamos constantemente por mejorar todos los aspectos de la existencia de abejas.
+Estas abejas prueban una nueva tecnología de casco.
+¿Qué crees que hace?
+No es suficiente.
+Aquí tenemos nuestro último avance, el Krelman.
+¿Qué hace eso?
+Atrapa ese pequeño hilo de miel que cuelga después de verterlo.
+Nos ahorra millones.
+¿Alguien puede trabajar en el Krelman?
+Por supuesto. La mayoría de los trabajos de abejas son pequeños.
+Pero las abejas saben que cada trabajo pequeño, si se hace bien, significa mucho.
+Pero elija cuidadosamente porque permanecerá en el trabajo que elija por el resto de su vida.
+El mismo trabajo el resto de tu vida? No lo sabía.
+¿Cuál es la diferencia?
+Te alegrará saber que las abejas, como especie, no han tenido un día libre en 27 millones de años.
+¿Entonces solo nos trabajarás hasta la muerte?
+Seguro que lo intentaremos.
+¡Guau! ¡Eso me voló la mente!
+"¿Cuál es la diferencia?"
+¿Cómo puedes decir eso?
+Un trabajo para siempre?
+Esa es una elección loca de tener que tomar.
+Estoy aliviado. Ahora solo tenemos que tomar una decisión en la vida.
+Pero, Adam, ¿cómo podrían nunca habernos dicho?
+¿Por qué cuestionarías algo? Somos abejas.
+Somos la sociedad más perfectamente que funciona en la tierra.
+¿Alguna vez pensaste que las cosas funcionan demasiado bien aquí?
+¿Cómo qué? Dame un ejemplo.
+No sé. Pero sabes de lo que estoy hablando.
+Por favor borre la puerta. Fuerza de néctar real sobre el enfoque.
+Espera un segundo. Échale un vistazo.
+¡Oye, esos son deportistas de polen!
+Guau.
+Nunca los he visto tan cerca.
+Saben cómo es fuera de la colmena.
+Sí, pero algunos no vuelven.
+¡Hola, deportistas!
+¡Hola, deportistas!
+¡Ustedes lo hicieron muy bien!
+¡Eres monstruos!
+¡Eres un fanático del cielo! ¡Me encanta! ¡Me encanta!
+Me pregunto dónde estaban.
+No sé.
+Su día no está planeado.
+Fuera de la colmena, volando quién sabe dónde, hacer quién sabe qué.
+No puedes simplemente decidir ser un deportista de polen. Tienes que ser criado por eso.
+Bien.
+Mirar. Eso es más polen de lo que tú y yo veremos en la vida.
+Es solo un símbolo de estado.
+Las abejas hacen demasiado.
+Tal vez. A menos que lo estés usando y las damas te vean usando.
+Esas damas?
+¿No son nuestros primos también?
+Distante. Distante.
+Mira estos dos.
+Un par de Hive Harrys.
+Diviéramos con ellos.
+Debe ser peligroso ser un deportista de polen.
+Sí. ¡Una vez que un oso me cubrió contra un hongo!
+Tenía una pata en la garganta, y con la otra, ¡me estaba golpeando!
+¡Oh, mi!
+Nunca pensé que lo notaría.
+¿Qué estabas haciendo durante esto?
+Tratando de alertar a las autoridades.
+Puedo autógrafos eso.
+Un poco de raccioniente hoy, ¿no fue, camaradas?
+Sí. Borrascoso.
+Estamos llegando a un parche de girasol a seis millas de aquí mañana.
+Seis millas, ¿eh?
+¡Barry!
+Un salto de charco para nosotros, pero tal vez no estés dispuesto a eso.
+Tal vez lo soy.
+¡Usted no!
+Vamos a 0900 en J-Gate.
+¿Qué piensas, Buzzy-Boy?
+¿Eres suficiente?
+Yo podría ser. Todo depende de lo que significa 0900.
+¡Oye, Honex!
+Papá, me sorprendiste.
+¿Decides en qué te interesa?
+Bueno, hay muchas opciones.
+Pero solo obtienes uno.
+¿Alguna vez te aburriste haciendo el mismo trabajo todos los días?
+Hijo, déjame contarte sobre agitar.
+Agarras ese palo, y simplemente lo mueves y lo revuelves.
+Te metes en un ritmo.
+Es algo hermoso.
+Sabes, papá, cuanto más lo pienso,
+Tal vez el campo de miel no es el adecuado para mí.
+¿Estabas pensando en qué, haciendo animales de globo?
+Ese es un mal trabajo para un chico con un aguijón.
+¡Janet, tu hijo no está seguro de que quiera entrar en miel!
+Barry, a veces eres muy divertido.
+No estoy tratando de ser divertido.
+¡No eres gracioso! Vas a entrar en miel. Nuestro hijo, el agitador!
+¿Vas a ser un agitador?
+¡Nadie me está escuchando!
+Espera hasta que veas los palos que tengo.
+Podría decir cualquier cosa ahora mismo.
+¡Me haré un tatuaje de hormigas!
+¡Abrimos un poco de miel y celebremos!
+Tal vez perforaré mi tórax. Afeitar mis antenas. Cumplir con un saltamontes. ¡Obtenga un diente de oro y llame a todos "Dawg"!
+Estoy tan orgulloso.
+¡Estamos empezando a trabajar hoy!
+Hoy es el día.
+¡Vamos! Todos los buenos trabajos se habrán ido.
+Sí, claro.
+Conteo de polen, abejas de acrobacias, vertido, agitador, recepción, depilación ...
+¿Sigue disponible?
+Aférrate. ¡Dos quedados!
+¡Uno de ellos es tuyo! ¡Felicidades!
+Paso hacia un lado.
+¿Qué obtuviste?
+Recogiendo crud. ¡Estelar!
+¡Guau!
+¿Un par de novatos?
+¡Sí, señor! ¡Nuestro primer día! ¡Estamos listos!
+Haz tu elección.
+¿Quieres ir primero?
+No, vas.
+Oh, mi. ¿Qué está disponible?
+El asistente de baño está abierto, no por la razón que piensa.
+¿Alguna posibilidad de obtener el Krelman?
+Claro, estás encendido.
+Lo siento, el Krelman acaba de cerrar.
+Wax Monkey siempre está abierto.
+El Krelman se abrió de nuevo.
+¿Qué pasó?
+Una abeja murió. Hace una apertura. ¿Ver? Está muerto. Otro muerto.
+Muerto. Muerto. Dos muertos más.
+Muerto del cuello arriba. Muerto del cuello hacia abajo. ¡Así es la vida!
+¡Oh, esto es tan difícil!
+Calefacción, enfriamiento, abejas trucos, vertido, agitador, zumbido, inspector número siete, coordinador de pelusa, supervisor de rayas, Mite Wrangler.
+Barry, ¿qué crees que debería ... Barry?
+¡Barry!
+Muy bien, tenemos el parche de girasol en el cuadrante nueve ...
+¿Lo que le pasó?
+¿Dónde estás?
+Voy a salir.
+¿Afuera? Fuera donde?
+Por ahí.
+¡Oh, no!
+Tengo que hacerlo, antes de ir a trabajar por el resto de mi vida.
+¡Vas a morir! ¡Estás loco! ¿Hola?
+Otra llamada entrando.
+Si alguien se siente valiente, hay una tienda de delicatessen coreana en el 83 que recibe sus rosas hoy.
+Hola, chicos.
+Mira eso.
+¿No es ese el niño que vimos ayer?
+Sostenlo, hijo, la cubierta de vuelo está restringida.
+Está bien, Lou. Lo llevaremos a cabo.
+¿En realidad? Sintiéndose afortunado, ¿verdad?
+Firme aquí, aquí. Solo inicial eso.
+Gracias.
+DE ACUERDO.
+Hoy tienes un aviso de lluvia, y como todos saben, las abejas no pueden volar bajo la lluvia.
+Así que ten cuidado. Como siempre, mira tus escobas, palos de hockey, perros, pájaros, osos y murciélagos.
+Además, obtuve un par de informes de cerveza de raíz que se nos vierte.
+Murphy está en una casa por eso, ¡balbuceando como una cigarra!
+Eso es horrible.
+¡Y un recordatorio para ustedes, novatos, la ley número uno, absolutamente sin hablar con los humanos!
+ ¡Muy bien, puestos de lanzamiento!
+Buzz, zumbido, zumbido, zumbido! Buzz, zumbido, zumbido, zumbido! Buzz, zumbido, zumbido, zumbido!
+¡Negro y amarillo!
+¡Hola!
+¿Estás listo para esto, Hot Shot?
+Sí. Sí, tráelo.
+Viento, verificación.
+Antenas, verificación.
+Paquete de néctar, verificación.
+Alas, verificar.
+Stinger, verifique.
+Asustado de mis pantalones cortos, verifique.
+Ok, señoras,
+¡Vamos a moverlo!
+¡Punte a esas petunias, a rayas de los cuidados del vástago!
+¡Todos ustedes, drenan esas flores!
+¡Guau! ¡Estoy fuera!
+¡No puedo creer que esté fuera!
+Tan azul.
+¡Me siento tan rápido y libre!
+¡Cometa!
+¡Guau!
+¡Flores!
+Este es el líder azul, tenemos rosas visuales.
+Trae alrededor de 30 grados y mantenga.
+¡Rosas!
+30 grados, Roger. Trayendolo.
+Párate a un lado, niño.
+Tiene un poco de patada.
+¡Ese es un coleccionista de néctar!
+¿Alguna vez has visto la polinización de cerca?
+No, señor.
+Recojo un poco de polen aquí, espolvorea aquí. Tal vez un tablero allí, una pizca en eso.
+¿Ves eso? Es un poco de magia.
+Eso es asombroso. ¿Por qué hacemos eso?
+Ese es el poder de polen. Más polen, más flores, más néctar, más miel para nosotros.
+Fresco.
+Estoy recogiendo mucho amarillo brillante, podría ser margaritas, ¿no las necesitamos?
+Copie ese visual.
+Esperar. Una de estas flores parece estar en movimiento.
+Decir de nuevo? ¿Estás informando una flor en movimiento?
+Afirmativo.
+¡Eso estaba en juego!
+Este es el mejor. ¿Qué es?
+No lo sé, pero me encanta este color.
+Huele bien.
+No como una flor, pero me gusta.
+Sí, borroso.
+Químico-y.
+Cuidado, chicos. Es un pequeño agarre.
+¡Mi dulce señor de las abejas!
+¡Candy-cerebro, bájese allí!
+¡Problema!
+¡Tipo!
+Esto podría ser malo.
+Afirmativo.
+Muy cerca.
+Voy a doler.
+El niño de mamá.
+¡Estás fuera de posición, novato!
+¡Entrando contigo como un misil!
+¡Ayúdame!
+No creo que estas sean flores.
+¿Deberíamos decirle?
+Creo que él lo sabe.
+¡¿Qué es esto?!
+¡Punto de partido!
+Puedes comenzar a empacar, cariño, ¡porque estás a punto de comerlo!
+¡Yowser!
+Bruto.
+¡Hay una abeja en el auto!
+¡Haz algo!
+¡Estoy conduciendo!
+Hola, abeja.
+¡Está de vuelta aquí!
+¡Me va a picar!
+Nadie se mueve. Si no te mueves, él no te picará. ¡Congelar!
+¡Parpadeó!
+¡Rociarlo, abuela!
+¡¿Qué estás haciendo?!
+Wow ... el nivel de tensión aquí es increíble.
+Tengo que llegar a casa.
+No puedo volar bajo la lluvia. No puedo volar bajo la lluvia. No puedo volar bajo la lluvia.
+¡May Day! ¡May Day! ¡Bee bajando!
+Ken, ¿podrías cerrar la ventana por favor?
+Ken, ¿podrías cerrar la ventana por favor?
+Mira mi nuevo currículum. Lo convirtí en un folleto plegable. ¿Verás? Se dobla.
+Oh, no. Más humanos. No necesito esto.
+¿Qué fue eso?
+Tal vez esta vez. Esta vez. Esta vez. ¡Esta vez! ¡Esta vez! Esto ... ¡cortinas!
+Eso es diabólico.
+Es fantástico. Tiene todas mis habilidades especiales, incluso mis diez mejores películas favoritas.
+¿Qué es el número uno? Star Wars?
+No, no voy por eso ... un tipo de cosas.
+No es de extrañar que no debamos hablar con ellos. Están fuera de sus mentes.
+Cuando dejo una entrevista de trabajo, están asombrados, no puedo creer lo que digo.
+Ahí está el sol. Tal vez esa sea una salida.
+No recuerdo que el sol tuviera un gran 75.
+Predijé el calentamiento global. Podía sentir que se calentaría. Al principio pensé que era solo yo.
+¡Esperar! ¡Detener! ¡Abeja!
+Retroceder. Estas son botas de invierno.
+¡Esperar!
+¡No lo mates!
+¡Sabes que soy alérgico a ellos! ¡Esta cosa podría matarme!
+¿Por qué su vida tiene menos valor que la tuya?
+¿Por qué su vida tiene menos valor que la mía? ¿Es esa tu declaración?
+Solo digo que toda la vida tiene valor. No sabes lo que es capaz de sentir.
+¡Mi folleto!
+Ahí tienes, pequeño.
+No tengo miedo de él. Es una cosa alérgica.
+ Pon eso en tu folleto de currículum.
+Toda mi cara podría hincharse.
+Conviértalo en una de sus habilidades especiales.
+Noquear a alguien también es una habilidad especial.
+Bien. Adiós, Vanessa. Gracias.
+Vanessa, la próxima semana? ¿Noche de yogurt?
+Claro, Ken. Ya sabes, lo que sea.
+Podrías poner chips de algarroba allí.
+Adiós.
+Se supone que son menos calorías.
+Adiós.
+Tengo que decir algo. Ella me salvó la vida. Tengo que decir algo.
+Muy bien, aquí va.
+Nah.
+¿Qué diría?
+Realmente podría meterme en problemas. Es una ley de abejas. Se supone que no debes hablar con un humano.
+No puedo creer que esté haciendo esto. Tengo que hacerlo.
+Oh, no puedo hacerlo. ¡Vamos!
+No. Sí. No. Hazlo. No puedo.
+¿Cómo debo comenzar? "¿Te gusta el jazz?" No, eso no es bueno.
+¡Aquí viene! ¡Habla, tonto!
+¡Hola!
+Lo lamento. Estás hablando.
+Sí, lo sé.
+¡Estás hablando!
+Lo siento mucho.
+No, está bien. Está bien.
+Sé que estoy soñando. Pero no recuerdo haber ido a la cama.
+Bueno, estoy seguro de que esto es muy desconcertante.
+Esto es una sorpresa para mí. Quiero decir, ¡eres una abeja!
+Soy. Y se supone que no debo estar haciendo esto, pero todos intentaban matarme.
+Y si no fuera por ti ... tuve que agradecerte. Así es como fui criado.
+Eso fue un poco raro. Estoy hablando con una abeja.
+Sí.
+Estoy hablando con una abeja. ¡Y la abeja me está hablando!
+Solo quiero decir que estoy agradecido.
+Me iré ahora.
+¡Esperar! ¿Cómo aprendiste a hacer eso?
+¿Qué?
+Lo que habla.
+De la misma manera que lo hiciste, supongo. "Mamá, Dada, cariño". Lo recoges.
+Eso es muy divertido.
+Sí.
+Las abejas son divertidas. Si no nos reíamos, lloraríamos con lo que tenemos que lidiar.
+De todos modos ... ¿puedo ... conseguirte algo?
+¿Cómo qué?
+No sé. Quiero decir ... no lo sé. ¿Café?
+No quiero sacarte.
+No es problema. Toma dos minutos.
+Es solo café.
+Odio imponer.
+¡No seas ridículo!
+En realidad, me encantaría una taza.
+Oye, ¿quieres pastel de ron?
+No debería.
+Tener algunos.
+No, no puedo.
+¡Vamos!
+Estoy tratando de perder un par de microgramos.
+¿Dónde?
+Estas rayas no ayudan.
+¡Te ves genial!
+No sé si sabes algo sobre la moda.
+¿Estás bien?
+No.
+Está haciendo la corbata en el taxi mientras volan a Madison.
+Finalmente llega allí.
+Corre los pasos hacia la iglesia.
+La boda está encendida.
+Y él dice: "¿Sandía?
+Pensé que dijiste guatemaltecan.
+¿Por qué me casaría con una sandía? "
+¿Es eso una broma de abeja?
+Ese es el tipo de cosas que hacemos.
+Sí, diferente.
+Entonces, ¿qué vas a hacer, Barry?
+Sobre el trabajo? No sé.
+Quiero hacer mi parte para la colmena, pero no puedo hacerlo como quieren.
+Sé cómo te sientes.
+¿Tú haces?
+Seguro.
+Mis padres querían que fuera abogado o médico, pero quería ser florista.
+¿En realidad?
+Mi único interés son las flores.
+Nuestra nueva reina fue elegida con ese mismo eslogan de campaña.
+De todos modos, si miras ... ahí está mi colmena justo ahí. ¿Veslo?
+¡Estás en el prado de ovejas!
+¡Sí! ¡Estoy justo al lado del estanque de tortugas!
+¡De ninguna manera! Conozco esa área. Perdí un anillo de los pies allí una vez.
+¿Por qué las niñas se ponen anillos en los pies?
+¿Por qué no?
+Es como poner un sombrero en la rodilla.
+Quizás lo intente.
+¿Estás bien, señora?
+Oh sí. Bien.
+¡Solo tomando dos tazas de café!
+De todos modos, esto ha sido genial.
+Gracias por el café.
+Sí, no es problema.
+Lo siento, no pude terminarlo. Si lo hiciera, estaría despierto el resto de mi vida.
+Eres...?
+¿Puedo llevarme un pedazo de esto?
+¡Seguro! Aquí, ten una miga.
+¡Gracias!
+Sí.
+Está bien. Bueno, entonces ... supongo que te veré. O no.
+Ok, Barry.
+Y muchas gracias de nuevo ... por antes.
+Oh, eso? Eso no era nada.
+Bueno, no nada, pero ... de todos modos ...
+Esto no puede funcionar.
+Está listo para irse.
+También podemos intentarlo.
+Ok, Dave, tira de la rampa.
+Suena increíble.
+¡Fue increíble!
+Fue el momento más aterrador y feliz de mi vida.
+¡Humanos! ¡No puedo creer que estuvieras con humanos!
+¡Giant, humanos de miedo!
+¿Cómo eran ellos?
+Enorme y loco. Hablan locamente.
+Comen cosas gigantes locas.
+Entran locos.
+¿Intentan matarte, como en la televisión?
+Algunos de ellos. Pero algunos de ellos no.
+¿Cómo regresaste?
+Caniche.
+Lo hiciste y me alegro. Viste lo que querías ver.
+Tenías tu "experiencia". Ahora puedes elegir tu Job y ser normal.
+Bien...
+¿Bien?
+Bueno, conocí a alguien.
+Lo hiciste? ¿Era ella bee-ish?
+¿Una avispa? ¡Tus padres te matarán!
+No, no, no, no una avispa.
+¿Araña?
+No me atrae las arañas.
+Sé que es lo más popular, con las ocho patas y todo. No puedo pasar por esa cara.
+Entonces, ¿quién es ella?
+Ella es ... humana.
+No, no. Esa es una ley de abejas. No romperías una ley de abejas.
+Su nombre es Vanessa.
+Oh, chico.
+Ella es tan agradable. ¡Y ella es una florista!
+¡Oh, no! ¡Estás saliendo con una florista humana!
+No estamos saliendo.
+¡Estás volando fuera de la colmena, hablando con humanos que atacan nuestras casas con arandelas de poder y M-80! ¡Un octavo un palo de dinamita!
+¡Ella me salvó la vida! Y ella me entiende.
+¡Esto ha terminado!
+Come esto.
+¡Esto no ha terminado! ¿Qué fue eso?
+Lo llaman migas.
+¡Era tan rayado!
+Y eso no es lo que comen.
+¡Eso es lo que se cae de lo que comen!
+¿Sabes qué es un cinnabon?
+No.
+Es pan, canela y glaseado. Lo calientan ...
+¡Sentarse!
+... ¡realmente caliente!
+¡Escúchame!
+¡No somos ellos! Somos nosotros.
+¡Estamos nosotros y están ellos!
+Sí, pero ¿quién puede negar el corazón que anhela?
+No hay anhelo. Deja de anhelar. ¡Escúchame!
+Tienes que empezar a pensar a la abeja, amigo. ¡Pensando a la abeja!
+Pensando abeja.
+Pensando abeja.
+¡Pensando a la abeja! ¡Pensando a la abeja! ¡Pensando a la abeja! ¡Pensando a la abeja!
+Ahí está. Está en la piscina.
+¿Sabes cuál es tu problema, Barry?
+¿Tengo que empezar a pensar a Bee?
+¿Cuánto tiempo más pasará esto?
+¡Han pasado tres días! ¿Por qué no estás trabajando?
+Tengo muchas decisiones de gran vida en las que pensar.
+¿Qué vida? ¡No tienes vida!
+No tienes trabajo. ¡Apenas eres una abeja!
+¿Te mataría hacer un poco de miel?
+Barry, sal. Tu padre te está hablando.
+Martin, ¿hablarías con él?
+¡Barry, te estoy hablando!
+¿Vienes?
+¿Tienes todo?
+¡Listo!
+Adelante. Me pondré al día.
+No seas demasiado largo.
+¡Mira esto!
+¡Vanessa!
+Todavía estamos aquí.
+Te dije que no le gritaras.
+¡No responde a gritar!
+Entonces, ¿por qué gritarme?
+¡Porque no escuchas!
+No estoy escuchando esto.
+Lo siento, tengo que irme.
+¿Adónde vas?
+Me encuentro con un amigo.
+Una chica? ¿Es por eso que no puedes decidir?
+Adiós.
+Solo espero que ella sea abeja.
+¿Tienen un gran desfile de flores cada año en Pasadena?
+Para estar en el Torneo de Rosas, ¡ese es el sueño de todos los floristas!
+En una carroza, rodeada de flores, multitudes vitoreando.
+Un torneo. ¿Las rosas compiten en eventos deportivos?
+No. Muy bien, tengo uno.
+¿Cómo es que no vuelas a todas partes?
+Es agotador. ¿Por qué no corres a todas partes? Es más rápido.
+Sí, está bien, ya veo.
+Muy bien, tu turno.
+Tivo. ¿Puedes congelar la televisión en vivo? ¡Eso es una locura!
+¿No tienes eso?
+Tenemos HIVO, pero es una enfermedad. Es una enfermedad horrible y horrible.
+Oh, mi.
+Abejas tontas!
+Debes querer picar todos esos idiotas.
+Tratamos de no picar. Por lo general, es fatal para nosotros.
+Entonces tienes que ver tu temperamento.
+Con mucho cuidado.
+Patas una pared, das un paseo, escribes una carta enojada y la tiras. Trabaja como cualquier emoción: ira, celos, lujuria.
+¡Oh Dios mío! ¿Estás bien?
+Sí.
+¿Qué te pasa?
+Es un error.
+No está molestando a nadie.
+¡Sal de aquí, te arrastras!
+¿Qué fue eso? ¿Una foto de Save Circular?
+Sí, lo fue. ¿Cómo lo supiste?
+Se sintió como unas 10 páginas. Setenta y cinco es más o menos nuestro límite.
+Realmente lo has hecho a una ciencia.
+Perdí un primo por la moda italiana.
+Apuesto.
+¿Qué en nombre de Mighty Hercules es esto?
+¿Cómo llegó esto aquí? Linda abeja, Golden Blossom, Ray Liotta Private Select?
+¿Es ese actor?
+Nunca escuché de él.
+¿Por qué está esto aquí?
+Para la gente. Lo comemos.
+¿No tienes suficiente comida propia?
+Bueno, sí.
+¿Cómo lo consigues?
+Las abejas lo logran.
+¡Sé quién lo hace! ¡Y es difícil hacerlo!
+Hay calefacción, enfriamiento, agitación. ¡Necesitas una cosa completa de Krelman!
+Es orgánico.
+¡Es nuestro cántico!
+Es solo cariño, Barry.
+¿Qué?
+¡Las abejas no saben sobre esto! ¡Esto está robando! ¡Mucho robo!
+¡Has tomado nuestros hogares, escuelas, hospitales! ¡Esto es todo lo que tenemos!
+¿Y está a la venta? Estoy llegando al fondo de esto.
+¡Estoy llegando al fondo de todo esto!
+Oye, Héctor. ¿Casi has terminado?
+Casi.
+El esta aquí. Lo siento.
+Bueno, supongo que me iré a casa ahora y dejaré esta bonita miel, sin nadie cerca.
+¡Estás arrestado, Box Boy!
+Sabía que escuché algo.
+¡Entonces puedes hablar!
+Puedo hablar. ¡Y ahora comenzarás a hablar!
+¿Dónde obtienes las cosas dulces? ¿Quién es tu proveedor?
+No entiendo.
+Pensé que éramos amigos.
+¡Lo último que queremos hacer es molestar a las abejas!
+¡Eres demasiado tarde! ¡Es nuestro ahora!
+¡Usted, señor, ha cruzado la espada equivocada!
+¡Usted, señor, será el almuerzo para mi Iguana, Ignacio!
+¿De dónde viene la miel? ¡Dime dónde!
+¡Farmas de miel! ¡Viene de granjas de miel!
+¡Crazero!
+¿Qué cosa horrible ha pasado aquí?
+Estas caras, nunca supieron lo que los golpeó. Y ahora
+¡Están en el camino a ninguna parte!
+Solo manténgase quieto.
+¿Qué? ¿No estás muerto?
+¿Me veo muerto? Limpiarán cualquier cosa que se mueva. ¿A dónde te dirigiste?
+A las granjas de miel. Estoy en algo enorme aquí.
+Voy a Alaska. Sangre de alce, cosas locas. ¡Sopla la cabeza!
+Voy a Tacoma.
+¿Y tú?
+Realmente está muerto.
+Está bien.
+Uh-oh!
+¡¿Qué es eso?!
+¡Oh, no!
+¡Un limpiaparabrisas! ¡Triple cuchilla!
+¿Triple cuchilla?
+¡Ponerse! ¡Es tu única oportunidad, abeja!
+¿Por qué todo tiene?
+¿Ser tan perrito limpio?
+¿Cuánto necesitan ver ustedes?
+¡Abre los ojos!
+¡Sea la cabeza por la ventana!
+De NPR News en Washington,
+Soy Carl Kasell.
+¡Pero no mates más insectos!
+¡Abeja!
+¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡30 ¡!!
+Escuchas algo?
+¿Cómo qué?
+Como pequeños gritos.
+Apagar la radio.
+¿Qué, chico de abeja?
+Oye, sangre.
+Solo una fila de frascos de miel, hasta donde alcanza la vista.
+¡Guau!
+Supongo que donde sea que vaya este camión es donde lo están recibiendo. Quiero decir, esa miel es nuestra.
+Las abejas cuelgan apretadas. Todos estamos atascados.
+Es una comunidad cercana.
+No nosotros, hombre. Nosotros solos. Cada mosquito por su cuenta.
+¿Qué pasa si te metes en problemas?
+Usted es un mosquito, en problemas. A nadie le gustamos. Simplemente golpean. ¡Vea un mosquito, golpear, golpear!
+Al menos estás en el mundo. Debes conocer chicas.
+Las chicas de mosquitos intentan intercambiar, acudir con una polilla, libélula. Mosquito Girl no no quiere mosquitos.
+¡Tienes que estar bromeando!
+¡Moosblood está a punto de abandonar el edificio! ¡Tan largo, abeja!
+¡Hola, chicos!
+¡Moosa!
+Sabía que los atraparía aquí abajo.
+¿Trajiste tu colmo loco?
+Lo arrojamos en frascos, le damos una etiqueta a él, y es bastante pura ganancia.
+¿Qué es este lugar?
+Una abeja tiene un cerebro del tamaño de una cabeza de alfiler.
+¡Son cabezas de alfiler!
+Cabeza de alfiler.
+Echa un vistazo al nuevo fumador.
+Oh, dulce. Ese es el que quieres. ¡El Thomas 3000!
+¿Fumador?
+Noventa bocanadas por minuto, semiautomático. Dos veces la nicotina, toda la alquitrán. Un par de respiraciones de esto los derriba.
+Hacen la miel y ganamos el dinero.
+"¿Hacen la miel y ganamos el dinero"?
+¡Oh, mi!
+¿Qué está sucediendo? ¿Estás bien?
+Sí. No dura demasiado tiempo.
+¿Sabes que estás en una colmena falsa con paredes falsas?
+Nuestra reina se conmovió aquí. No teníamos otra opción.
+Esta es tu reina? ¡Ese es un hombre con ropa de mujer! ¡Eso es una drag queen!
+¿Qué es esto?
+¡Oh, no!
+¡Hay cientos de ellos!
+Abeja miel.
+¡Nuestra miel es robada descarada a gran escala!
+¡Esto es peor que cualquier cosa que Bears haya hecho! Tengo la intención de hacer algo.
+Oh, Barry, detente.
+¿Quién te dijo que los humanos están tomando nuestra miel? Eso es un rumor.
+¿Estos parecen rumores?
+Esa es una teoría de la conspiración. Estas obviamente son fotos manipuladas. ¿Cómo te mezclaron en esto?
+Ha estado hablando con humanos.
+¿Qué? ¿Hablando con los humanos?
+Tiene una novia humana. ¡Y se besan!
+¿Dar a entender? ¡Barry!
+No lo hacemos.
+Desearías poder.
+¿De qué lado estás?
+Las abejas!
+Salí con un cricket una vez en San Antonio. Esas piernas locas me mantuvieron despierto toda la noche.
+Barry, ¿esto es lo que quieres hacer con tu vida?
+Quiero hacerlo por todas nuestras vidas. ¡Nadie trabaja más duro que las abejas!
+Papá, recuerdo que volviste a casa tan con exceso de trabajo
+Tus manos todavía se agitaban. No pudiste parar.
+Lo recuerdo.
+¿Qué razón tienen con nuestra miel?
+Vivimos con dos tazas al año. ¡Lo pusieron en bálsamo labial sin ninguna razón!
+Incluso si es cierto, ¿qué puede hacer una abeja?
+Pustarlos donde realmente duele.
+En la cara! ¡El ojo!
+Eso dolería.
+No.
+¿Arriba la nariz? Eso es un asesino.
+Solo hay un lugar donde puedes picar a los humanos, un lugar donde importa.
+Hive a los cinco, la única fuente de noticias de acción de la hora completa de la colmena.
+¡No más barbas de abejas!
+Con Bob Bumble en el escritorio de anclaje. Clima con Stinger Stinger. Deportes con Buzz Larvi. Y Jeanette Chung.
+Buenas noches. Soy Bob Bumble.
+Y soy Jeanette Ohung.
+¡Una abeja tri-condado, Barry Benson, tiene la intención de demandar a la raza humana por robar nuestra miel, empacarla y aprovecharla ilegalmente!
+Mañana por la noche en Bee Larry King, tendremos tres antiguas reinas aquí en nuestro estudio, discutiendo su nuevo libro, Classy Ladies, esta semana en Hexagon.
+Esta noche estamos hablando con Barry Benson.
+¿Alguna vez pensaste: "Soy un niño de la colmena. No puedo hacer esto"?
+Las abejas nunca han tenido miedo de cambiar el mundo.
+¿Qué pasa con Bee Oolumbus? ¿Bee Gandhi? ¿Bejesus?
+De dónde soy, nunca demandamos a los humanos.
+Estábamos pensando en las tiendas Stickball o Candy.
+¿Cuántos años tiene?
+La comunidad de abejas lo está apoyando en este caso, que será el juicio del siglo de Bee.
+Sabes, ellos también tienen un Rey Larry en el mundo humano.
+Es un nombre común. La próxima semana...
+Se parece a ti y tiene un espectáculo y tirantes y puntos de colores ...
+La próxima semana...
+Gafas, citas en la parte inferior del invitado a pesar de que solo los escuchaste.
+¡Semana del oso la próxima semana! Son aterradores, peludos y aquí en vivo.
+Siempre se inclina hacia adelante, los hombros puntiagudos, los ojos de los ojos, muy judío.
+¡En el tenis, atacas en el punto de debilidad!
+Era mi abuela, Ken. Ella tiene 81 años.
+¡Cariño, su revés es una broma!
+¿No voy a aprovechar eso?
+Tranquilo, por favor.
+El trabajo real está realizando aquí.
+¿Es esa la misma abeja?
+¡Sí, lo es!
+Lo estoy ayudando a demandar a la raza humana.
+Hola.
+Hola, abeja.
+Este es Ken.
+Sí, te recuerdo. Timberland, tamaño diez y medio. Vibram Sole, creo.
+¿Por qué habla de nuevo?
+Escucha, es mejor que te vayas porque estamos muy ocupados trabajando.
+¡Pero es nuestra noche de yogurt!
+Adiós.
+¿Por qué es tan difícil la noche de yogurt?
+Tu pobre cosa. ¡Ustedes dos han estado en esto durante horas!
+Sí, y Adam aquí ha sido de gran ayuda.
+Frío...
+¿Cuántos azúcares?
+Solo uno. Intento no usar la competencia.
+Entonces, ¿por qué me estás ayudando?
+Las abejas tienen buenas cualidades. Y me deja de pensar en la tienda. En lugar de flores, la gente está dando ramos de globo ahora.
+Esos son geniales, si tienes tres años.
+Y flores artificiales.
+¡Oh, eso solo me consigue psicótico!
+Sí, yo también.
+Dirigs doblados, polinización inútil.
+¡Las abejas deben odiar esas cosas falsas!
+Nada peor que un narciso que ha hecho trabajo.
+Tal vez esto podría compensarlo un poco.
+Esta demanda es un gran problema.
+Supongo.
+¿Seguro que quieres seguir con eso?
+¿Estoy seguro? Cuando termine con los humanos, no podrán decir: "Cariño, estoy en casa", sin pagar una regalía!
+Es una escena increíble aquí en el centro de Manhattan, donde el mundo espera ansiosamente, porque por primera vez en la historia, escucharemos por nosotros mismos si un abejas realmente puede hablar.
+¿En qué hemos entrado aquí, Barry?
+Es bastante grande, ¿no?
+No puedo creer cuántos humanos no trabajan durante el día.
+¿Crees que las compañías multinacionales de alimentos de miles de millones de dólares tienen buenos abogados?
+Todos necesitan quedarse detrás de la barricada.
+¿Qué pasa?
+No lo sé, acabo de escolar.
+Bueno, si no es el equipo de abejas.
+¿Ustedes chicos trabajan en esto?
+¡Todos se elevan! El honorable juez Bumbleton preside.
+Está bien. Número de caso 4475,
+Tribunal Superior de Nueva York,
+Barry Bee Benson v. La industria de la miel está ahora en sesión.
+Sr. Montgomery, ¿representa a las cinco compañías de alimentos colectivamente?
+Un privilegio.
+Sr. Benson ... ¿Estás representando a todas las abejas del mundo?
+Estoy bromeando. Sí, honor, estamos listos para proceder.
+Sr. Montgomery, su declaración de apertura, por favor.
+Damas y caballeros del jurado, mi abuela era una mujer simple. Nacida en una granja, ella creía que era el derecho divino del hombre beneficiarse de la generosidad de la naturaleza que Dios le puso ante nosotros.
+Si viviéramos en el mundo revuelto al revés que el Sr. Benson imagina, solo piense en lo que significaría.
+¡Tendría que negociar con el gusano de seda para el elástico en mis pantalones!
+¡Hablando de abeja!
+¿Cómo sabemos que esto no es una especie de magia de Hollywood de captura holográfica de la imagen de movimiento?
+¡Podrían estar usando vigas láser! ¡Robótica! ¡Ventriloquia! ¡Clonación! ¡Por lo que sabemos, él podría estar en esteroides!
+Sr. Benson?
+Damas y caballeros, no hay trucos aquí. Solo soy una abeja ordinaria. Honey es bastante importante para mí. Es importante para todas las abejas. ¡Lo inventamos! Lo hacemos. Y lo protegemos con nuestras vidas.
+Desafortunadamente, hay algunas personas en esta sala que piensan que pueden sacarlo de nosotros porque somos los pequeños.
+Espero que, después de que esto haya terminado, verás cómo, al tomar nuestra miel, ¡no solo tomas todo lo que tenemos sino todo lo que somos!
+Desearía que se vistiera así todo el tiempo. ¡Qué lindo!
+Llame a su primer testigo.
+Entonces, el Sr. Klauss Vanderhayden de Honey Farms, gran empresa que tiene.
+Supongo que sí.
+¡Veo que también es dueño de Honeyburton y Honon!
+Sí, proporcionan apicultores para nuestras granjas.
+Apicultor. Encuentro que es un término muy inquietante.
+No me imagino que emplees a ningún tipo de abejas, ¿verdad?
+No.
+No pude escucharte.
+No.
+No. Porque no liberas abejas. Mantienes abejas. No solo eso, parece que pensaste que un oso sería una imagen apropiada para un frasco de miel.
+Son criaturas muy adorables. Yogi Bear, Fozzie Bear, Build-a-Bear.
+¿Te refieres a esto?
+¡Los osos matan a las abejas!
+¿Cómo te gustaría que su cabeza se estrellara por tu sala de estar? ¡Morder en tu sofá! ¡Escupir tus almohadas de lanzamiento! Ok, eso es suficiente. Llévelo.
+Entonces, Sr. Sting, gracias por estar aquí. Tu nombre me intriga. ¿Dónde lo he escuchado antes?
+Estaba con una banda llamada la policía.
+Pero nunca has sido oficial de policía, ¿verdad?
+No, no lo he hecho.
+No, no lo has hecho. Y así, aquí tenemos otro ejemplo de cultura de abejas robado casualmente por un humano por nada más que un nombre artístico.
+Oh, por favor.
+¿Alguna vez ha sido picado, señor Sting? Porque me siento un poco picado, picadura. O debería decir ... Sr. Gordon M. Sumner!
+¿Ese no es su nombre real? ¡Ustedes idiotas!
+El Sr. Liotta, primero, felicitaciones tardías por su victoria del Emmy por un lugar invitado en ER en 2005.
+Gracias. Gracias.
+Veo por tu currículum que eres diabólicamente guapo con una agitación interna agitadora que está lista para soplar.
+Disfruto lo que hago. ¿Es eso un crimen?
+Todavía no lo es. ¿Pero es esto a lo que ha venido para ti? Explotando abejas pequeñas e indefensas para que no tenga que ensayar su parte y aprender sus líneas, señor?
+¡Míralo, Benson! ¡Podría soplar ahora mismo!
+Esta no es una buenafella.
+¡Esto es una Badfella!
+¿Por qué alguien no pisa este asqueroso, y todos podemos ir a casa?
+Orden en este tribunal!
+¡Todos lo están pensando!
+¡Orden! ¡Orden, digo!
+¡Dilo!
+Sr. Liotta, ¡siéntate!
+Creo que fue muy amable de ese oso lanzar así. Creo que el jurado está de nuestro lado.
+¿Estamos haciendo todo bien, legalmente?
+Soy florista.
+Bien. Bueno, aquí está un gran equipo.
+¡A un gran equipo!
+Bueno, hola.
+¡Conocido!
+Hola.
+No pensé que vinieras.
+No, llegué tarde, intenté llamar, pero ... la batería.
+No quería que todo esto se desperdiciara
+Entonces llamé a Barry. Afortunadamente, él era libre.
+Oh, eso tuvo suerte.
+Queda un poco. Podría calentarlo.
+Sí, calienta, claro, lo que sea.
+Así que escuché que eres un jugador de tenis. No soy mucho para el juego yo mismo. La pelota es un poco agarrada.
+Ahí es donde normalmente me siento. Bien ... ahí.
+Ken, Barry estaba mirando tu currículum, y él estuvo de acuerdo conmigo en que comer con palillos no es realmente una habilidad especial.
+¿Crees que no veo lo que estás haciendo?
+Sé lo difícil que es encontrar el trabajo correcto. Tenemos eso en común.
+¿Nosotros?
+Las abejas tienen un 100 por ciento de empleo, pero hacemos trabajos como sacar la ruzña.
+Eso es justo lo que estaba pensando en hacer.
+Ken, dejé que Barry tome prestada tu afeitar por su pelusa. Espero que esté bien.
+Voy a drenar el viejo Stinger.
+Sí, tú haces eso.
+Mira eso.
+Sabes, casi lo he tenido con tus pequeños juegos mentales.
+¿Qué es eso?
+Vogue italiano.
+Mamma Mia, son muchas páginas.
+Muchos anuncios.
+Recuerda lo que dijo Van, ¿por qué tu vida es más valiosa que la mía?
+Es curioso, ¡parece que no puedo recordar eso! ¡Creo que algo apesta aquí!
+Amo el olor a flores.
+¿Qué te parece el olor a llamas?
+No tanto.
+¡Bug de agua! ¡No tome lados!
+¡Ken, estoy usando un sombrero de Chapstick!
+¡Esto es patético!
+¡Tengo problemas!
+Bueno, bueno, bueno, ¡un rubor real!
+Estás faroleando.
+¿Lo soy?
+Surf está arriba, amigo!
+¡Agua de caca!
+Ese tazón es retorcido. ¡Excepto por esos anillos amarillos sucios!
+¡Kenneth! ¡¿Qué estás haciendo?!
+¡Sabes, ni siquiera me gusta la miel! ¡No lo como!
+¡Tenemos que hablar! ¡Es solo un poco de abeja!
+¡Y resulta ser la abeja más bonita que he conocido en mucho tiempo!
+¿Hace mucho tiempo? ¡¿De qué estás hablando?! ¿Hay otros errores en tu vida?
+ No, pero hay otras cosas que me molestan en la vida. ¡Y eres uno de ellos!
+¡Bien! Abejas hablando, sin noche de yogurt ...
+¡Mis nervios se fríen por montar en esta montaña rusa emocional!
+Adiós, Ken.
+¡Y para su información, prefiero los edulcorantes artificiales sin azúcar hechos por el hombre!
+Lamento todo eso.
+¡Sé que tiene un regusto! ¡Me gusta!
+Siempre sentí que había algún tipo de barrera entre Ken y yo. No pude superarlo.
+Oh, bueno.
+¿Estás bien para el juicio?
+Creo que el Sr. Montgomery se trata de ideas.
+Nos gustaría llamar al Sr. Barry Benson Bee al estrado.
+¡Buena idea! Realmente puedes ver por qué ha considerado uno de los mejores abogados ...
+Sí.
+Layton, tienes que tejer algo de magia con este jurado, o va a terminar.
+No te preocupes. Lo único que tengo que hacer para cambiar este jurado es recordarles lo que no les gusta de las abejas.
+¿Tienes las pinzas?
+¿Eres alérgico?
+Solo para perder, hijo. Solo para perder.
+Sr. Benson Bee, le preguntaré qué creo que todos nos gustaría saber.
+¿Cuál es exactamente tu relación con esa mujer?
+Somos amigos.
+Buenos amigos?
+Sí.
+¿Qué tan bien? ¿Viven juntos?
+Espera un minuto ... ¿eres su pequeña ... Bedbug?
+He visto un documental de abejas o dos. Por lo que entiendo, ¿tu reina no da a luz a todos los niños de abejas?
+Sí, pero ...
+¡Así que esos no son tus verdaderos padres!
+Oh, Barry ...
+¡Sí lo son!
+¡Abrazame!
+Eres una abeja ilegítima, ¿no eres tú, Benson?
+¡Está denunciando abejas!
+¿No salen con tus primos?
+¡Objeción!
+¡Voy a pintar a este tipo!
+¡Adam, no lo hagas! ¡Es lo que quiere!
+¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ ¡Oh, Señor, soy golpeado!
+¡Orden! ¡Orden!
+¡El veneno! ¡El veneno está recorriendo mis venas! ¡He sido talado por una bestia de destrucción alada! ¿Verás? ¡No puedes tratarlos como iguales! ¡Son salvajes a rayas! ¡Señalizar es lo único que saben! ¡Es su camino!
+Adam, quédate conmigo.
+No puedo sentir mis piernas.
+¿Qué Angel of Mercy se presentará para chupar el veneno de mis nalgas agitadas?
+Tendré orden en este tribunal. ¡Orden! ¡Orden, por favor!
+El caso de las abejas de las abejas contra la raza humana dio un giro puntiagudo contra las abejas ayer cuando uno de sus equipos legales picó a Layton T. Montgomery.
+Oye, amigo.
+Ey.
+¿Hay mucho dolor?
+Sí.
+Yo ... soplé todo el caso, ¿no?
+No importa. Lo que importa es
+Estás vivo. Podrías haber muerto.
+Estaría mejor muerto. Mírame.
+Lo obtuvieron de la cafetería abajo, en un sándwich de atún. Mira, todavía hay un pequeño apio.
+¿Cómo fue picar a alguien?
+No puedo explicarlo. Todo era ... toda adrenalina y luego ... ¡y luego éxtasis!
+Está bien.
+¿Crees que todo fue una trampa?
+Por supuesto. Lo lamento. Me volé directamente en esto.
+¿Qué estábamos pensando? Míranos. Solo somos un par de errores en este mundo.
+¿Qué nos hará los humanos si ganan?
+No sé.
+Escuché que pusieron las cucarachas en los moteles. Eso no suena tan mal.
+Adam, se registran, ¡pero no se revisan!
+Oh, mi.
+¿Podrías conseguir que una enfermera cierre esa ventana?
+¿Por qué?
+El humo.
+Las abejas no fuman.
+Bien. Las abejas no fuman.
+¡Las abejas no fuman!
+Pero algunas abejas fuman.
+¡Eso es todo! ¡Ese es nuestro caso!
+¿Es? No ha terminado?
+Vestirse. Tengo que ir a algún lado.
+Vuelve a la cancha y se detiene. Puesto de cualquier manera que puedas.
+Y suponiendo que haya hecho el paso correctamente, está listo para la bañera.
+Sr. Flayman.
+¿Sí? ¡Sí, honor!
+¿Dónde está el resto de tu equipo?
+Bueno, honor, es interesante. Las abejas están entrenadas para volar al azar, y como resultado, no pasamos muy bien.
+De hecho, escuché una historia divertida sobre ...
+Su honor, ¿no se han tomado estos errores ridículos lo suficiente del valioso tiempo de esta corte? ¿Cuánto tiempo más permitiremos que continúen estas travesuras absurdas?
+No han presentado evidencia convincente para respaldar sus cargos contra mis clientes, que administran negocios legítimos.
+¡Me muevo por un despido completo de todo este caso!
+Sr. Flayman, me temo que voy a tener que considerar la moción del Sr. Montgomery.
+¡Pero no puedes! Tenemos un caso excelente.
+¿Dónde está tu prueba?
+¿Dónde está la evidencia?
+¡Muéstrame la pistola fumadora!
+¡Hazlo, tu honor!
+¿Quieres una pistola de fumar? Aquí está tu arma fumadora.
+¿Qué es eso?
+¡Es un fumador de abejas!
+¿Qué, esto? ¿Este pequeño artilugio inofensivo? Esto no podía doler una mosca, y mucho menos una abeja.
+Mire lo que ha pasado a las abejas a las que nunca se les ha preguntado: "¿Fumar o no?" ¿Es esto lo que la naturaleza pretendía para nosotros? ¿Ser adicto por la fuerza a las máquinas de humo y los campamentos de trabajo de lactancia de madera artificiales?
+¿Vivir nuestras vidas como esclavos de miel para el hombre blanco?
+¿Qué vamos a hacer?
+Está jugando la carta de especies.
+Damas y caballeros, ¡liberen estas abejas!
+¡Libre las abejas! ¡Libre las abejas! ¡Libre las abejas! ¡Libre las abejas! ¡Libre las abejas!
+¡El tribunal considera a favor de las abejas!
+Vanessa, ganamos!
+¡Sabía que podías hacerlo! ¡CINCO!
+Lo siento.
+¡Estoy bien! ¿Sabes lo que esto significa?
+Toda la miel finalmente pertenecerá a las abejas.
+Ahora no tendremos que trabajar tan duro todo el tiempo.
+Esta es una perversión impía del equilibrio de la naturaleza, Benson.
+Te arrepentirás de esto.
+Barry, ¿cuánta miel hay ahí fuera?
+Está bien. Uno a la vez.
+Barry, ¿a quién llevas puesto?
+Mi suéter es Ralph Lauren, y no tengo pantalones.
+¿Qué pasa si Montgomery tiene razón?
+¿Qué quieres decir?
+Hemos estado viviendo por mucho tiempo, 27 millones de años.
+Felicitaciones por tu victoria. ¿Qué exigirás como acuerdo?
+Primero, exigiremos un cierre completo de todos los campamentos de trabajo de abejas.
+Luego queremos volver a la miel que era nuestra, hasta la última gota.
+Exigimos el final de la glorificación del oso como algo más que una máquina apestosa sucia, maloliente y de respiración mala.
+Todos somos conscientes de lo que hacen en el bosque.
+Espera mi señal. Sacarlo.
+Tendrá náuseas durante unas horas, entonces estará bien.
+Y ya no toleraremos los apodos negativos de las abejas ...
+¡Pero es solo un nombre artístico de Prance!
+... Inclusión innecesaria de miel en productos de salud falsos y guarniciones de bocadillos en el tiempo de té humano La-Dee-Da.
+No puedo respirar.
+¡Tráelo, muchachos!
+¡Manténgalo allí mismo! Bien.
+Toque.
+Sr. Buzzwell, acabamos de pasar tres tazas y hay galones más llegando.
+¡Creo que necesitamos apagar!
+¿Cerrar? Nunca hemos cerrado.
+¡Cierre la producción de miel!
+¡Deja de hacer miel!
+¡Gire su llave, señor!
+¿Qué hacemos ahora?
+¡Bala de cañón!
+¡Estamos cerrando la producción de miel!
+Misión abortar.
+Abortando la polinización y los detalles del néctar.
+Volviendo a la base.
+Adam, no creerías cuánto miel había.
+¿Oh sí?
+¿Qué está sucediendo? ¿Dónde están todos?
+¿Están celebrando?
+Están en casa.
+Ellos no saben qué hacer. Traje, durmiendo.
+Escuché que tu tío Carl se dirigía a San Antonio con un cricket.
+Al menos recuperamos nuestra miel.
+A veces pienso, ¿y si a los humanos les gustó nuestra miel? ¿Quién no lo haría?
+¡Es lo mejor del mundo! Estaba emocionado de ser parte de hacerlo.
+Este era mi nuevo escritorio. Este era mi nuevo trabajo. Quería hacerlo muy bien. Y ahora ...
+Ahora no puedo.
+No entiendo por qué no son felices.
+¡Pensé que sus vidas serían mejores!
+No están haciendo nada. Es asombroso.
+La miel realmente cambia a la gente.
+No tienes idea de lo que está pasando, ¿verdad?
+¿Qué querías mostrarme?
+Este.
+¿Qué pasó aquí?
+Esa no es la mitad.
+Oh, no. Oh, mi.
+Todos se marchitan.
+No se ve muy bien, ¿verdad?
+No.
+¿Y de quién crees que es eso?
+Sabes, voy a adivinar abejas.
+Abejas?
+Específicamente, yo.
+No pensé que las abejas que no necesitaban hacer miel afectarían todas estas cosas.
+No son solo flores. Frutas, verduras, todas necesitan abejas.
+Esa es toda nuestra prueba SAT allí mismo.
+Quite el producto, eso afecta a todo el reino animal.
+Y luego, por supuesto ...
+La especie humana?
+Entonces, si no hay más polinización, todo podría ir al sur aquí, ¿no?
+Sé que esto también es en parte mi culpa.
+¿Qué tal un pacto de suicidio?
+¿Cómo lo hacemos?
+Te picaré, me pisas.
+Eso te mata dos veces.
+Correcto, correcto.
+Escucha, Barry ... lo siento, pero tengo que ponerme en marcha.
+Tuve que abrir la boca y hablar.
+Vanessa?
+Vanessa? ¿Por qué te vas?
+¿Adónde vas?
+Al Desfile del Torneo Final de las Rosas en Pasadena.
+Lo han trasladado a este fin de semana porque todas las flores están muriendo.
+Es la última oportunidad que tendré que verlo.
+Vanessa, solo quiero decir que lo siento.
+Nunca quise decir que resultara así.
+Lo sé. Yo tampoco.
+Torneo de rosas.
+Las rosas no pueden hacer deportes.
+Espera un minuto. Rosas. Rosas?
+¡Rosas!
+¡Vanessa!
+Rosas?
+Barry?
+¡Las rosas son flores!
+Sí lo son.
+Flores, abejas, polen!
+Lo sé.
+Por eso este es el último desfile.
+Tal vez no.
+¿Podrías pedirle que disminuya la velocidad?
+¿Podrías reducir la velocidad?
+¡Barry!
+Ok, cometí un gran error.
+Este es un desastre total, todo mi culpa.
+Sí, es algo así.
+He arruinado el planeta. Quería ayudarte con la florería. Lo he empeorado.
+En realidad, está completamente cerrado.
+Pensé que tal vez estabas remodelando.
+Pero tengo otra idea, y es más grande que mis ideas anteriores combinadas.
+¡No quiero escucharlo!
+Muy bien, tienen las rosas, las rosas tienen el polen.
+Conozco cada abeja, planta y brote de flores en este parque.
+Todo lo que tenemos que hacer es obtener lo que tienen aquí con lo que tenemos.
+Abejas.
+Parque.
+¡Polen!
+Flores.
+¡Repompauración!
+¡En todo el país!
+Torneo de rosas, Pasadena, California.
+No tienen nada más que flores, carrozas y algodón de azúcar.
+La seguridad será ajustada.
+Tengo una idea.
+Vanessa Bloome, Ftd.
+Negocio floral oficial. Es real.
+Lo siento, señora. Bonito broche.
+Gracias. Fue un regalo.
+Una vez dentro, solo elegimos el flotador correcto.
+¿Qué tal la princesa y el guisante?
+¡Podría ser la princesa, y tú podrías ser el guisante!
+Sí, lo tengo.
+¿Dónde debo sentarme?
+¿Qué vas a?
+Creo que soy el guisante.
+El guisante?
+Va debajo de los colchones.
+No en este cuento de hadas, cariño.
+Estoy recibiendo el mariscal.
+¡Haces eso! ¡Todo este desfile es un fiasco!
+Veamos qué hará este bebé.
+Oye, ¿qué estás haciendo?
+Entonces todo lo que hacemos es mezclar con el tráfico ... sin despertar sospechas.
+Una vez en el aeropuerto, no se nos detiene.
+¡Detener! Seguridad.
+¿Usted y su insecto empacan su flotador?
+Sí.
+¿Ha estado en tu poder todo el tiempo?
+¿Te quitarías los zapatos?
+Retire su aguijón.
+Es parte de mí.
+Lo sé. Solo divirtiéndome.
+Disfruta de tu vuelo.
+Entonces, si tenemos suerte, tendremos suficiente polen para hacer el trabajo.
+¿Puedes creer lo afortunados que somos? ¡Tenemos suficiente polen para hacer el trabajo!
+Creo que esto va a funcionar.
+Tiene que funcionar.
+Atención, pasajeros, este es el Capitán Scott. Tenemos un poco de mal tiempo en Nueva York. Parece que experimentaremos un par de horas de retraso.
+Barry, estas son flores cortadas sin agua. Nunca lo lograrán.
+Tengo que subir y hablar con ellos.
+Ten cuidado.
+¿Puedo obtener ayuda con la revista Sky Mall? Me gustaría ordenar la nariz inflable y el recortador de cabello para la oreja.
+Capitán, estoy en una situación real.
+¿Qué dijiste, Hal?
+Nada.
+¡Abeja!
+¡No se asuste! Toda mi especie ...
+¿Qué estás haciendo?
+¡Espera un minuto! ¡Soy abogado!
+¿Quién es un abogado?
+No te muevas.
+Oh, Barry.
+Buenas tardes, pasajeros. Este es tu capitán. ¿Una señorita Vanessa Bloome en 24B, por favor, informaría a la cabina? ¡Y por favor date prisa!
+¿Qué pasó aquí?
+Hubo un basurero, un tupee, una balsa de vida explotada.
+¡El calvo, uno en un bote, ambos están inconscientes!
+¿Es esa otra broma de abeja?
+¡No!
+¡Nadie está volando el avión!
+Esta es la torre de control JFK, vuelo 356. ¿Cuál es su estado?
+Esta es Vanessa Bloome. Soy florista de Nueva York.
+¿Dónde está el piloto?
+Está inconsciente, y también lo es el copiloto.
+No es bueno. ¿Alguien a bordo tiene experiencia en vuelo?
+De hecho, hay.
+¿Quién es ese?
+Barry Benson.
+De la prueba de miel? Oh, genial.
+Vanessa, esto no es más que una gran abeja metal.
+Tiene alas gigantes, enormes motores.
+No puedo volar un avión.
+¿Por qué no? ¿No es John Travolta un piloto?
+Sí.
+¿Qué tan difícil podría ser?
+¡Espera, Barry!
+Nos dirigimos a algunos rayos.
+Este es Bob Bumble. Tenemos algunas noticias tardías en el aeropuerto JFK, donde se está desarrollando una escena de suspenso.
+Barry Benson, recién llegado de su victoria legal ...
+¡Eso es Barry!
+... está intentando aterrizar un avión, cargado de personas, flores y una tripulación de vuelo incapacitada.
+¿Flores?
+Tenemos una tormenta en el área y dos personas en los controles sin absolutamente ninguna experiencia de vuelo.
+Espera un momento. Hay una abeja en ese avión.
+Estoy bastante familiarizado con el Sr. Benson y sus compadres sin cuenta.
+Han hecho suficiente daño.
+¿Pero no es tu única esperanza?
+Técnicamente, una abeja no debería poder volar en absoluto.
+Sus alas son demasiado pequeñas ... ¿no hemos escuchado esto un millón de veces?
+"La superficie de las alas y la masa corporal no tiene sentido".
+¡Obtén esto en el aire!
+Entiendo.
+Apoyar.
+Vamos a vivir.
+La forma en que trabajamos puede ser un misterio para ti. Hacer miel requiere muchas abejas haciendo muchos trabajos pequeños.
+Pero déjame contarte sobre un trabajo pequeño. Si lo haces bien, hace una gran diferencia.
+Más de lo que nos dimos cuenta. Para nosotros, para todos.
+Por eso quiero que las abejas vuelvan a trabajar juntas. ¡Esa es la forma de abeja! No estamos hechos de Jell-O.
+Nos ponemos detrás de un compañero.
+¡Negro y amarillo!
+¡Hola!
+Izquierda, derecha, abajo, flotante.
+¿Flotar?
+Olvídate de Hover.
+Esto no es tan difícil.
+Beep-Beep! Beep-Beep!
+Barry, ¿qué pasó?
+Espera, creo que estuvimos en piloto automático todo el tiempo.
+Eso puede haberme ayudado.
+¡Y ahora no lo somos!
+Entonces resulta que no puedo volar un avión.
+¡Todos ustedes, vamos a detener a este compañero! ¡Muévalo!
+¡Desalojar!
+¡Nuestra única oportunidad es que si hago lo que haría, me copias con las alas del avión!
+No tienes que gritar.
+¡No estoy gritando! Estamos en muchos problemas.
+¡Es muy difícil concentrarse con ese tono de pánico en tu voz!
+No es un tono. ¡Estoy en pánico!
+¡No puedo hacer esto!
+Vanessa, se reúne. ¡Tienes que salir de eso!
+Te quitaste.
+Te quitaste.
+¡Lo sacas!
+¡Lo sacas!
+¡Lo sacas!
+¡Lo sacas!
+¡Lo sacas!
+¡Lo sacas!
+¡Aguele!
+¿Por qué? Vamos, es mi turno.
+¿Cómo está volando el avión?
+No sé.
+¿Hola?
+Benson, ¿tienes flores para una feliz ocasión allí?
+¡Los deportistas de polen!
+Se ponen detrás de un compañero.
+Negro y amarillo.
+Hola.
+Muy bien, dejemos caer esta lata en el Blacktop.
+¿Dónde? No puedo ver nada. ¿Puede?
+No, nada. Todo está nublado.
+Vamos. Tienes que pensar a Bee, Barry.
+Pensando abeja.
+Pensando abeja.
+¡Pensando a la abeja!
+¡Pensando a la abeja! ¡Pensando a la abeja!
+Espera un minuto. Creo que estoy sintiendo algo.
+¿Qué?
+No sé. Es fuerte, tirándome.
+Como un instinto de 27 millones de años.
+Baje la nariz hacia abajo.
+¡Pensando a la abeja!
+¡Pensando a la abeja! ¡Pensando a la abeja!
+¿Qué demonios está en el asfalto?
+¡Obtenga algunas luces en eso!
+¡Pensando a la abeja!
+¡Pensando a la abeja! ¡Pensando a la abeja!
+Vanessa, apunta a la flor.
+DE ACUERDO.
+Cortar los motores. Vamos a entrar en el poder de las abejas. ¿Listo, muchachos?
+¡Afirmativo!
+Bien. Bien. Fácil, ahora. Eso es todo.
+¡Tierra en esa flor!
+¿Listo? ¡Reverso completo!
+¡Gira!
+¡No esa flor! ¡El otro!
+¿Cuál?
+Esa flor.
+¡Estoy apuntando a la flor!
+Ese es un tipo gordo con una camisa florida.
+¡Me refiero a la flor gigante pulsante hecha de millones de abejas!
+Avanzar. Nariz abajo. Cola arriba.
+Girar alrededor de él.
+¡Esto es una locura, Barry!
+Esta es la única forma en que sé volar.
+¿Soy Koo-Koo-Kachoo, o este avión está volando en un patrón de insecto?
+Ponte la nariz allí. No tengas miedo. Huelirlo. ¡Reverso completo!
+Solo déjalo. Ser parte de eso.
+Apunta al centro!
+¡Ahora déjalo caer! ¡Déjalo, mujer!
+Vamos, ya.
+Barry, lo hicimos! ¡Me enseñaste a volar!
+Sí. ¡No hay cinco cinco!
+Bien.
+Barry, funcionó!
+¿Viste la flor gigante?
+¿Qué flor gigante? ¿Dónde? Por supuesto
+¡Vi la flor! ¡Eso fue genio!
+Gracias.
+Pero aún no hemos terminado.
+¡Escucha a todos!
+Esta pista está cubierta con el último polen de las últimas flores disponibles en cualquier lugar de la Tierra.
+Eso significa que esta es nuestra última oportunidad. Somos los únicos que hacen miel, polinizan flores y se visten como esta.
+Si vamos a sobrevivir como especie, ¡este es nuestro momento! ¿Qué dices?
+¿Vamos a ser abejas o solo llaveros de historia natural?
+¡Somos abejas!
+Llavero!
+¡Entonces sígueme! Excepto el llavero.
+Espera, Barry. Aquí. Te has ganado esto.
+¡Sí!
+¡Soy un deportista de polen! Y es un ajuste perfecto. Todo lo que tengo que hacer son las mangas.
+Oh sí.
+Ese es nuestro Barry.
+¡Mamá! ¡Las abejas están de vuelta!
+Si alguien necesita hacer una llamada, ahora es el momento. ¡Tengo la sensación de que trabajaremos hasta tarde esta noche!
+Aquí está tu cambio. ¡Que tengas una gran tarde! ¿Puedo ayudar a quién es el próximo?
+¿Te gustaría un poco de miel con eso?
+Está aprobado por la abeja. No olvides estos.
+Leche, crema, queso, todo soy yo.  ¡Y no veo un níquel!
+¡A veces me siento como un trozo de carne!
+No tenía ni idea.
+Barry, lo siento.
+¿Tienes un momento?
+¿Me disculparías?
+Mi asociado de mosquitos te ayudará.
+Lo siento, llego tarde.
+¿Él también es abogado?
+Ya era un parásito que chupaba sangre. Todo lo que necesitaba era un maletín.
+¡Que tengas una gran tarde!
+Barry, acabo de recibir este enorme pedido de tulipán, y no puedo conseguirlos en ningún lado.
+No hay problema, Vannie. Solo déjalo para mí.
+Eres un salvavidas, Barry. ¿Puedo ayudar a quién es el próximo?
+¡Muy bien, lucha, deportes! Es hora de volar.
+¡Gracias Barry!
+¡Esa abeja está viviendo mi vida!
+Déjalo ir, Kenny.
+¿Cuándo terminará esta pesadilla?
+Déjalo ir todo.
+Hermoso día para volar.
+Seguro que es.
+Entre tú y yo,
+Me estaba muriendo por salir de esa oficina.
+Tienes que empezar a pensar a la abeja, amigo.
+¡Pensando a la abeja!
+¿A mí?
+Sosténgalo. Vamos a parar por un segundo. Sosténgalo.
+Lo lamento. Lo siento, todos. ¿Podemos parar aquí?
+¡No estoy tomando una decisión importante de la vida durante un número de producción!
+Está bien. Toma diez, todos. Envuélvalo, muchachos.
+Prácticamente no tenía ensayo para eso. </p>
